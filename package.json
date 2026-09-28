@@ -1,0 +1,25 @@
+{
+  "name": "husky-desktop-companion",
+  "version": "1.0.0",
+  "description": "3D Husky Puppy Windows Desktop Companion",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/run_all_tests.mjs"
+  },
+  "keywords": [
+    "desktop-pet",
+    "husky",
+    "3d",
+    "electron",
+    "threejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^44.4.3"
+  },
+  "dependencies": {
+    "three": "^0.186.0"
+  }
+}
